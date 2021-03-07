@@ -4,7 +4,7 @@ const path = require('path');
 const { location} = require('./utils/utils');
 
 const app =  express();
-
+const PORT = process.env.PORT || 3000;
 
 
 app.set("view engine", 'hbs')
@@ -77,6 +77,6 @@ app.get('*', (req, res) => {
 })
 
 
-app.listen(3000, () => {
+app.listen(PORT, () => {
     console.log('Server listening!')
 })

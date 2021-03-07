@@ -34,11 +34,12 @@ header a {
 }
 .portrait {
     width: 250px
-}k
+}
 
 input {
     border: 1px solid #cccccc;
     padding: 18px;
+    
 }
 
 button {
